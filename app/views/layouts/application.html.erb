@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pokedex</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+
+    <script type="text/javascript">
+      window.POKEMON_TYPES = <%=raw Pokemon::TYPES %>
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <img src="./assets/pokeball.svg" alt="pokedex">
+      <div class="buttons">
+        <span class="red-button"><span class="button-inner"></span></span>
+        <span class="yellow-button"><span class="button-inner"></span></span>
+        <span class="green-button"><span class="button-inner"></span></span>
+      </div>
+    </header>
+
+    <%= yield %>
+  </body>
+</html>
