@@ -278,7 +278,27 @@ ActiveRecord::Base.transaction do
         'electro ball',
         'feint'
       ]
-    } 
+    },
+    '26' => {
+      'name' => 'Raichu',
+      'attack' => 90,
+      'defense' => 55,
+      'poke_type' => 'electric',
+      'moves' => [
+         'thundershock',
+         'thunderbolt'
+      ],
+    },
+    '27' => {
+      'name' => 'Sandshrew',
+      'attack' => 75,
+      'defense' => 85,
+      'poke_type' => 'ground',
+      'moves' => [
+         'scratch',
+         'poison sting'
+      ],
+    }
   }
 
   pokemon = pokemon.map do |num, stats|
