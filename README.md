@@ -20,10 +20,9 @@ Mini Pokedex is an interactive real life version of the famous little gadget kno
 To see the most up to date version, please visit [the homepage](https://nookbnb.herokuapp.com/#/).
 
 ## Technologies Used
-* Routing – Express
-* Database – MongoDB
-* Libraries – Mongoose, React
-* Server Environment – NodeJS
+* Database – Postgres
+* Libraries – React, Redux
+* Server Environment – Ruby on Rails
 
 
 ## Feature Spotlight
