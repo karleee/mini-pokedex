@@ -4,7 +4,7 @@
 Mini Pokedex is an interactive real life version of the famous little gadget known as the Pokedex from Nintendo's 'Pokemon' video game series. Visually designed to mimic the original Pokedex from the 1997 television series, explore information about your favorite Pokemon and watch them come to life through animated images on screen.
 
 <kbd>
-<img src="https://github.com/karleee/airbnb_clone/blob/master/README_images/home_main1.png" alt="Homepage" width="900px"     border="1">
+<img src="https://github.com/karleee/mini-pokedex/blob/master/README_images/mini-pokedex_main1.png" alt="Homepage" width="900px"     border="1">
 </kbd>
 
 <br>
@@ -12,7 +12,7 @@ Mini Pokedex is an interactive real life version of the famous little gadget kno
 <br>
 
 <kbd>
-<img src="https://github.com/karleee/nookbnb/blob/master/README_images/home_main2.png" alt="Homepage" width="900px" border="1">
+<img src="https://github.com/karleee/mini-pokedex/blob/master/README_images/mini-pokedex_main2.png" alt="Homepage" width="900px" border="1">
 </kbd>
 
 
