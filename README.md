@@ -17,7 +17,7 @@ Mini Pokedex is an interactive real life version of the famous little gadget kno
 
 
 ## How It Works
-To see the most up to date version, please visit [the homepage](https://nookbnb.herokuapp.com/#/).
+To see the most up to date version, please visit [the homepage](https://mini-pokedex.herokuapp.com/).
 
 ## Technologies Used
 * Database – Postgres
@@ -26,9 +26,9 @@ To see the most up to date version, please visit [the homepage](https://nookbnb.
 
 
 ## Feature Spotlight
-### Feature # 1
+### Animated Pokemon
 
-feature text
+To create a more in depth application, animated gifs of the seeded Pokemon are displayed instead of plain static images. 
 
 <kbd>
 <img src="https://github.com/karleee/nookbnb/blob/master/README_images/calendar_widget_main.png" alt="Homepage" width="900px" border="1">
