@@ -30,8 +30,6 @@ To see the most up to date version, please visit [the homepage](https://mini-pok
 
 To create a more in depth application, animated gifs of the seeded Pokemon are displayed instead of plain static images. 
 
-<br>
-
 ### Thematic Visual Styling
 
 Mimicking the original depiction of the Pokedex in the 1997 television series, the entire user interface is styled using HTML and CSS to give the user a feeling of full immersion into the world of Pokemon. Glare effects on the display screens are also another interesting detail that adds more of a three dimensional effect.
