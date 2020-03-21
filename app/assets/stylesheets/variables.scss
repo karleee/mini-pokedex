@@ -6,7 +6,9 @@ $dark-grey: #404040;
 
 @font-face {
   font-family: 'pokemon-classic';
-  src: url(../fonts/pokemon_classic.ttf); 
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/pokemon_classic.ttf) format('ttf'); 
 }
 
 $red: #DE3C2F;
