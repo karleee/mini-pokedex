@@ -30,7 +30,7 @@ To see the most up to date version, please visit [the homepage](https://mini-pok
 
 To create a more in depth application, animated gifs of the seeded Pokemon are displayed instead of plain static images. 
 
-------
+<br>
 
 ### Thematic Visual Styling
 
