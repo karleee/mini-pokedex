@@ -17,7 +17,7 @@ class PokemonDetail extends React.Component {
     const pokemonMoves = pokemon.moves ? pokemon.moves : [];
     const movesList = pokemonMoves.map(move => <li key={move}>{move}</li>);
     return (
-      <section className="pokemon-detail">
+      <section className="pokemon-detail screens-container"> 
         <section className="pokemon-displays">
           <section className="pokemon-image-display">
             <figure>

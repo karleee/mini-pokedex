@@ -227,7 +227,7 @@ function (_React$Component) {
         }, move);
       });
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        className: "pokemon-detail"
+        className: "pokemon-detail screens-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "pokemon-displays"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
@@ -426,21 +426,24 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       var pokemon = this.props.pokemon;
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        className: "pokedex-container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Route"], {
-        exact: true,
-        path: "/",
-        component: _pokemon_home__WEBPACK_IMPORTED_MODULE_3__["default"]
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Route"], {
-        path: "/pokemon/:pokemonId",
-        component: _pokemon_detail_container__WEBPACK_IMPORTED_MODULE_2__["default"]
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, pokemon.map(function (poke) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pokemon_index_item__WEBPACK_IMPORTED_MODULE_1__["default"], {
-          key: poke.id,
-          pokemon: poke
-        });
-      }))));
+      return (// <section>
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "pokedex-container"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          exact: true,
+          path: "/",
+          component: _pokemon_home__WEBPACK_IMPORTED_MODULE_3__["default"]
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          path: "/pokemon/:pokemonId",
+          component: _pokemon_detail_container__WEBPACK_IMPORTED_MODULE_2__["default"]
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, pokemon.map(function (poke) {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pokemon_index_item__WEBPACK_IMPORTED_MODULE_1__["default"], {
+            key: poke.id,
+            pokemon: poke
+          });
+        }))) // </section>
+
+      );
     }
   }]);
 
