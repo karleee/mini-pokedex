@@ -226,32 +226,38 @@ function (_React$Component) {
           key: move
         }, move);
       });
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pokemon-detail screens-container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        className: "pokemon-displays"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        className: "pokemon-image-display"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail image-screens"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail poke-image-display"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail glass-screen-display"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: pokemon.main_image_url,
         alt: pokemon.name
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "image-line-1"
+        className: "glass-streak-1"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "image-line-2"
+        className: "glass-streak-2"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "image-line-3"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "glass-streak-3"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail glass-buttons-wrapper"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "small-red-button"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "button-inner"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail vent-lines-wrapper"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "vent-line-1"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "vent-line-2"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "vent-line-3"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pokemon-mock-display"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "mock-line-1"
@@ -261,12 +267,12 @@ function (_React$Component) {
         className: "mock-line-3"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "mock-line-4"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        className: "pokemon-detail-display"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail info-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "pokemon-stats"
+        className: "pokemon-detail stats-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, pokemon.name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Type:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), pokemon.poke_type), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Attack:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), pokemon.attack), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Defense:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), pokemon.defense)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "pokemon-moves"
+        className: "pokemon-detail moves-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Moves:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, movesList))));
     }
   }]);
@@ -326,19 +332,23 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var PokemonHome = function PokemonHome() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "pokemon-detail"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "pokemon-displays"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "pokemon-image-display"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "image-line-1"
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail screens-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail image-screens"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail poke-image-display"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail glass-screen-display"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "glass-streak-1"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "image-line-2"
+    className: "glass-streak-2"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "image-line-3"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "glass-streak-3"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail glass-buttons-wrapper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "small-red-button"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "button-inner"
@@ -348,7 +358,7 @@ var PokemonHome = function PokemonHome() {
     className: "vent-line-2"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "vent-line-3"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "pokemon-mock-display"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "mock-line-1"
@@ -358,7 +368,7 @@ var PokemonHome = function PokemonHome() {
     className: "mock-line-3"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "mock-line-4"
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "pokemon-detail-display"
   }));
 };
@@ -426,24 +436,18 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       var pokemon = this.props.pokemon;
-      return (// <section>
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: "pokedex-container"
-        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["default"], {
-          exact: true,
-          path: "/",
-          component: _pokemon_home__WEBPACK_IMPORTED_MODULE_3__["default"]
-        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["default"], {
-          path: "/pokemon/:pokemonId",
-          component: _pokemon_detail_container__WEBPACK_IMPORTED_MODULE_2__["default"]
-        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, pokemon.map(function (poke) {
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pokemon_index_item__WEBPACK_IMPORTED_MODULE_1__["default"], {
-            key: poke.id,
-            pokemon: poke
-          });
-        }))) // </section>
-
-      );
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokedex all-screens-container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Route"], {
+        exact: true,
+        path: "/",
+        component: _pokemon_home__WEBPACK_IMPORTED_MODULE_3__["default"]
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, pokemon.map(function (poke) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pokemon_index_item__WEBPACK_IMPORTED_MODULE_1__["default"], {
+          key: poke.id,
+          pokemon: poke
+        });
+      })));
     }
   }]);
 

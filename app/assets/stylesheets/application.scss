@@ -19,16 +19,16 @@
  /* General page styling */
 
  body { 
-   font-family: 'pokemon-classic';
-   font-size: 12px;
-   color: $grey;
-   background: $red;
-   overflow: hidden;
-   text-transform: uppercase;
-   box-sizing: border-box;
-   border-bottom: 6px solid maroon;
-   border-left: 6px solid maroon;
-   border-right: 6px solid maroon;
+  font-family: 'pokemon-classic';
+  font-size: 12px;
+  color: $grey;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border-bottom: 6px solid maroon;
+  border-left: 6px solid maroon;
+  border-right: 6px solid maroon;
+  background: $red;
+  // overflow: hidden;
  }
 
  header {
