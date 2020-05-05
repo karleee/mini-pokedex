@@ -1,59 +1,54 @@
 @import "variables";
 
-.pokedex {
+.pokedex-container {
   display: flex;
   flex-direction: row-reverse;
-  padding-top: 20px;
-  height: 100%;
+  box-sizing: border-box;
+  padding: 2%; 
+  height: 100vh;
 
   > ul {
     list-style: none;
-    box-sizing: border-box;
-    width: 300px;
-    height: 570px;
+    width: 25%;
+    height: 87%;
     border-radius: 15px;
+    box-sizing: border-box;
     border: 6px solid $black;
     overflow: scroll;
-    margin-left: 30px;
     padding-inline-start: 0;
     background: $green;
     font-size: 12px;
     font-weight: 700;
 
-    > li {
+    li {
+      padding: 10px;
+      border-bottom: 3px solid $black;
+      cursor: pointer;
+
       a {
         display: block;
+        text-decoration: none;
+        color: $black;
+      }
+
+      img {
+        padding-right: 10px;
+        width: 50px;
+        vertical-align: middle;
+      }
+
+      .number {
+        font-weight: bold;
+      }
+
+      &:hover {
+        background: $light-green;
       }
 
       &:active {
         background: $lightest-green;
       }
     }
-  }
-}
-
-.pokemon-index-item {
-  padding: 10px;
-  border-bottom: 3px solid $black;
-  cursor: pointer;
- 
-  a {
-    text-decoration: none;
-    color: $black;
-  }
-
-  img {
-    padding-right: 10px;
-    width: 50px;
-    vertical-align: middle;
-  }
-
-  .number {
-    font-weight: bold;
-  }
-
-  &:hover {
-    background: $light-green;
   }
 }
 

@@ -427,7 +427,7 @@ function (_React$Component) {
     value: function render() {
       var pokemon = this.props.pokemon;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        className: "pokedex"
+        className: "pokedex-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Route"], {
         exact: true,
         path: "/",
@@ -504,9 +504,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var PokemonIndexItem = function PokemonIndexItem(_ref) {
   var pokemon = _ref.pokemon;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "pokemon-index-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/pokemon/".concat(pokemon.id)
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "number"

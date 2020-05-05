@@ -13,7 +13,7 @@ class PokemonIndex extends React.Component {
     const { pokemon } = this.props;
     return (
       <section>
-        <section className="pokedex">
+        <section className="pokedex-container">
           <Route exact path="/" component={PokemonHome} />
           <Route path="/pokemon/:pokemonId" component={PokemonDetailContainer} />
           <ul>
