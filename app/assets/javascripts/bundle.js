@@ -819,8 +819,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var uiReducer = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])({// errors: errorsReducer
-  // loading: loadingReducer
+var uiReducer = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])({
+  errors: _errors_reducer__WEBPACK_IMPORTED_MODULE_1__["default"],
+  loading: _loading_reducer__WEBPACK_IMPORTED_MODULE_2__["default"]
 });
 /* harmony default export */ __webpack_exports__["default"] = (uiReducer);
 
