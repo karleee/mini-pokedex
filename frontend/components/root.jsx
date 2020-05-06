@@ -1,7 +1,7 @@
 import React from 'react';
 import PokemonIndexContainer from './pokemon/pokemon_index_container';
-import { Provider } from 'react-redux';
-import { HashRouter, Route } from 'react-router-dom';
+import {Provider} from 'react-redux';
+import {HashRouter, Route} from 'react-router-dom';
 
 const Root = ({store}) => (
   <Provider store={store}>

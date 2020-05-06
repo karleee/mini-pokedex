@@ -313,3 +313,11 @@
     }
   }
 }
+
+/* Mobile styling */
+
+@media only screen and (orientation: portrait) {
+  .pokedex.all-screens-container {
+    display: none;
+  }
+}

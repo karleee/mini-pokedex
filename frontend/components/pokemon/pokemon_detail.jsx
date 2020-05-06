@@ -12,7 +12,7 @@ class PokemonDetail extends React.Component {
   }
 
   render() {
-    const { pokemon } = this.props;
+    const {pokemon} = this.props;
     if (!pokemon) return null;
     const pokemonMoves = pokemon.moves ? pokemon.moves : [];
     const movesList = pokemonMoves.map(move => <li key={move}>{move}</li>);
