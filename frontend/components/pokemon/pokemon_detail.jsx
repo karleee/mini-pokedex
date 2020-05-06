@@ -57,7 +57,7 @@ class PokemonDetail extends React.Component {
             <li>Type:<br/>{pokemon.poke_type}</li>
             <li>Attack:<br/>{pokemon.attack}</li>
             <li>Defense:<br/>{pokemon.defense}</li>
-          </ul>
+          </ul> 
 
           <div className="pokemon-detail moves-container">
             <label>Moves:</label>

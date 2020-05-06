@@ -1,6 +1,6 @@
 /* Reset CSS file */
 
-html, body, h1, ul {
+html, body, h1, ul, li {
 	margin: 0;
 	padding: 0;
 	border: 0;
