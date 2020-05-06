@@ -73916,3 +73916,13 @@ Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.3ms)
 Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.8ms)
 
 
+Started GET "/api/pokemon/1" for ::1 at 2020-05-06 15:06:06 -0700
+Processing by Api::PokemonController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/pokemon_controller.rb:8
+  Rendering api/pokemon/show.json.jbuilder
+  Rendered api/pokemon/show.json.jbuilder (2.6ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.2ms)
+
+
