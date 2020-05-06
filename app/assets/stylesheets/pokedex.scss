@@ -5,11 +5,10 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: flex-start;
-  // box-sizing: border-box;
-  // padding: 2%; 
+  box-sizing: border-box;
+  padding: 2%;
   width: 100%;
   height: 100%;
-  // background: yellow;
 
   > ul {
     list-style: none;
@@ -63,18 +62,19 @@
 .pokemon-detail.screens-container {
   display: flex;
   flex-direction: row;
-  width: 35%;
+  justify-content: space-between;
+  width: 72%;
   min-width: 470px;
   height: 87%;
-  // background: pink;
-  // margin: 10px auto;
 
   .pokemon-detail.image-screens {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 55%;
     height: 100%;
+
+    /* Pokemon image display styling */
 
     .pokemon-detail.poke-image-display {
       position: relative;
@@ -86,7 +86,7 @@
       border: 6px solid $black;
       background: $light-gray;
       width: 100%;
-      height: 60%;
+      height: 70%;
 
       .pokemon-detail.glass-screen-display {
         position: sticky;
@@ -104,56 +104,60 @@
       }
 
       img { 
-        width: 200px;
-        padding: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 50%;
       }
 
       .glass-streak-1 {
-        width: 100%;
+        position: absolute;
+        width: 200%;
         border-bottom: 45px solid white;
         opacity: 0.5;
         -webkit-transform:
-          translateY(10px)
-          translateX(-330px)
+          translateX(-25%)
+          translateY(10%)
           rotate(-27deg); 
-        position: absolute;
       }
 
       .glass-streak-2 {
-        width: 100%;
+        position: absolute;
+        width: 200%;
         border-bottom: 20px solid white;
         opacity: 0.5;
         -webkit-transform:
-          translateY(-40px)
-          translateX(-330px)
+          translateX(-25%)
+          translateY(-150%)
           rotate(-27deg); 
-        position: absolute;
       }
 
       .glass-streak-3 {
-        width: 100%;
+        position: absolute;
+        width: 200%;
         border-bottom: 10px solid white;
         opacity: 0.5;
         -webkit-transform:
-          translateY(70px)
-          translateX(-330px)
+          translateX(-20%)
+          translateY(450%)
           rotate(-27deg); 
-        position: absolute;
       }
 
       .pokemon-detail.glass-buttons-wrapper {
         position: relative;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
         width: 100%;
         height: 20%;
-        background: purple;
+        box-sizing: border-box;
+        padding: 0 20%;
 
-        .small-red-button {
-          // position: absolute;
-          // top: 0;
-          // left: 0;
+        .pokemon-detail.red-button-wrapper {
           position: relative;
           border-radius: 50%;
           background: $button-red;
@@ -161,8 +165,6 @@
           border: 4px solid $black;
           width: 3em;
           height: 3em;
-          // top: 305px;
-          // left: 120px;
 
           .button-inner {
             position: absolute;
@@ -177,177 +179,110 @@
         }
 
         .pokemon-detail.vent-lines-wrapper {
-          width: 80%;
+          width: 65%;
           height: 100%;
-          background: yellow;
-          
-          .vent-line-1 {
-            // position: absolute;
-            // top: 305px;
-            // left: 250px;
-            // border-bottom: 5px solid $black;
-            // border-radius: 15px;
-            // width: 150px;
-          }
+          box-sizing: border-box;
+          padding-top: 3%;
 
-          .vent-line-2 {
-            // position: absolute;
-            // top: 320px;
-            // left: 250px;
-            // border-bottom: 5px solid $black;
-            // border-radius: 15px;
-            // width: 150px;
-          }
-
-          .vent-line-3 {
-            // position: absolute;
-            // top: 335px;
-            // left: 250px;
-            // border-bottom: 5px solid $black;
-            // border-radius: 15px;
-            // width: 150px;
+          .pokemon-detail.vent-line {
+            border-radius: 15px;
+            background: $black;
+            margin: 5% 0;
+            width: 100%;
+            height: 5px;
           }
         }
       }
 
-      // .small-red-button {
-      //   background: $button-red;
-      //   width: 30px;
-      //   height: 30px;
-      //   border-radius: 50%;
-      //   border: 4px solid $black;
-      //   position: absolute;
-      //   top: 305px;
-      //   left: 120px;
+      .pokemon-detail.screw-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10%;
 
-      //   .button-inner {
-      //     background: white;
-      //     opacity: 0.6;
-      //     width: 15px;
-      //     height: 15px;
-      //     border-radius: 50%;
-      //     position: absolute;
-      //     top: 4px;
-      //     left: 4px;
-      //   }
-      // }
+        .pokemon-detail.screw-button {
+          width: 1em;
+          height: 1em;
+          border-radius: 50%;
+          background: $black;
+        }
 
-      // .vent-line-1 {
-      //   position: absolute;
-      //   top: 305px;
-      //   left: 250px;
-      //   border-bottom: 5px solid $black;
-      //   border-radius: 15px;
-      //   width: 150px;
-      // }
-
-      // .vent-line-2 {
-      //   position: absolute;
-      //   top: 320px;
-      //   left: 250px;
-      //   border-bottom: 5px solid $black;
-      //   border-radius: 15px;
-      //   width: 150px;
-      // }
-
-      // .vent-line-3 {
-      //   position: absolute;
-      //   top: 335px;
-      //   left: 250px;
-      //   border-bottom: 5px solid $black;
-      //   border-radius: 15px;
-      //   width: 150px;
-      // }
+        .pokemon-detail.screw-button:first-of-type {
+          margin-right: 5%;
+        }
+      }
     }
 
-    .pokemon-mock-display {
+    /* Mock screen styling */
+
+    .pokemon-detail.mock-display {
+      position: relative;
+      border-radius: 15px;
       background: $screen-gray;
+      box-sizing: border-box;
+      border: 6px solid $black;
+      margin-top: 30px;
       width: 100%;
       height: 30%;
-      margin-top: 30px;
-      border-radius: 15px;
-      border: 6px solid $black;
       font-size: 12px;
       font-weight: 700;
-      position: relative;
       overflow: hidden;
 
       .mock-line-1 {
-        width: 100%;
+        position: absolute;
+        width: 230%;
         border-bottom: 25px solid $mid-gray;
         opacity: 0.3;
         -webkit-transform:
-          translateY(-80px)
-          translateX(-40px)
+        translateX(-40%)
+          translateY(-50%)
           rotate(-27deg); 
-        position: absolute;
       }
 
       .mock-line-2 {
-        width: 100%;
+        position: absolute;
+        width: 230%;
         border-bottom: 15px solid $mid-gray;
         opacity: 0.3;
         -webkit-transform:
-          translateY(-40px)
-          translateX(-30px)
+          translateY(-20%)
+          translateX(-32%)
           rotate(-27deg); 
-        position: absolute;
       }
 
       .mock-line-3 {
-        width: 100%;
+        position: absolute;
+        width: 230%;
         border-bottom: 45px solid $mid-gray;
         opacity: 0.3;
         -webkit-transform:
-          translateY(20px)
-          translateX(-10px)
+          translateY(20%)
+          translateX(-2%)
           rotate(-27deg); 
-        position: absolute;
       }
     }
   }
 }
 
-.pokemon-image-display:before {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  top: 10px; 
-  left: 230px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: $black;
-}
-
-.pokemon-image-display:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  top: 10px; 
-  left: 265px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: $black;
-}
-
 /* Pokemon info screen styling */
 
 .pokemon-detail.info-container {
-  // position: relative;
-  width: 400px;
-  height: 300px;
   font-size: 16px;
   border-radius: 15px;
   background: $screen-gray;
   box-sizing: border-box;
   border: 6px solid $black;
-  // overflow: hidden;
+  width: 40%;
+  height: 100%;
     
   .pokemon-detail.stats-container {
     list-style: none;
-    margin-left: 40px;
+    margin-left: 10%;
 
     li {
       padding: 10px 0;
@@ -355,25 +290,25 @@
 
     h1 {
       font-size: 26px;
-      margin: 10px 0 10px 0;
+      margin: 5% 0;
     }
   }
 
   .pokemon-detail.moves-container {
-    margin-top: 30px;
+    margin-top: 5%;
 
     > label {
-      margin-left: 40px;
+      margin-left: 10%;
     }
 
     > ul {
       display: flex;
       flex-direction: column;
-      margin-left: 60px;
+      margin-left: 15%;
       margin-top: 5px;
 
       li {
-        padding: 5px 0;
+        padding: 2% 0;
       }
     }
   }

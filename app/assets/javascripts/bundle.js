@@ -233,39 +233,45 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pokemon-detail poke-image-display"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail screw-wrapper"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail screw-button"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail screw-button"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pokemon-detail glass-screen-display"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: pokemon.main_image_url,
         alt: pokemon.name
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "glass-streak-1"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "glass-streak-2"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "glass-streak-3"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail glass-streak-1"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail glass-streak-2"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail glass-streak-3"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pokemon-detail glass-buttons-wrapper"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "small-red-button"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail red-button-wrapper"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "button-inner"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pokemon-detail vent-lines-wrapper"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "vent-line-1"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "vent-line-2"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "vent-line-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail vent-line"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail vent-line"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pokemon-detail vent-line"
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "pokemon-mock-display"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "pokemon-detail mock-display"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mock-line-1"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mock-line-2"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mock-line-3"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mock-line-4"
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pokemon-detail info-container"
@@ -339,27 +345,35 @@ var PokemonHome = function PokemonHome() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "pokemon-detail poke-image-display"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail screw-wrapper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail screw-button"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail screw-button"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "pokemon-detail glass-screen-display"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "glass-streak-1"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "glass-streak-2"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "glass-streak-3"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "pokemon-detail glass-buttons-wrapper"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "small-red-button"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail red-button-wrapper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "button-inner"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "vent-line-1"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "vent-line-2"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "vent-line-3"
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "pokemon-mock-display"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail vent-lines-wrapper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail vent-line"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail vent-line"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail vent-line"
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pokemon-detail mock-display"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "mock-line-1"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -369,7 +383,7 @@ var PokemonHome = function PokemonHome() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "mock-line-4"
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "pokemon-detail-display"
+    className: "pokemon-detail info-container"
   }));
 };
 
@@ -442,6 +456,9 @@ function (_React$Component) {
         exact: true,
         path: "/",
         component: _pokemon_home__WEBPACK_IMPORTED_MODULE_3__["default"]
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Route"], {
+        path: "/pokemon/:pokemonId",
+        component: _pokemon_detail_container__WEBPACK_IMPORTED_MODULE_2__["default"]
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, pokemon.map(function (poke) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pokemon_index_item__WEBPACK_IMPORTED_MODULE_1__["default"], {
           key: poke.id,

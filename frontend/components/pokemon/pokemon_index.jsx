@@ -14,7 +14,7 @@ class PokemonIndex extends React.Component {
     return (
       <div className="pokedex all-screens-container">
         <Route exact path="/" component={PokemonHome} />
-        {/* <Route path="/pokemon/:pokemonId" component={PokemonDetailContainer} /> */}
+        <Route path="/pokemon/:pokemonId" component={PokemonDetailContainer} />
         <ul>
           {pokemon.map(poke => <PokemonIndexItem key={poke.id} pokemon={poke} />)}
         </ul> 

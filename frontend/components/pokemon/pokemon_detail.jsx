@@ -20,29 +20,34 @@ class PokemonDetail extends React.Component {
       <div className="pokemon-detail screens-container"> 
         <div className="pokemon-detail image-screens">
           <div className="pokemon-detail poke-image-display">
+            <div className="pokemon-detail screw-wrapper">
+              <div className="pokemon-detail screw-button"></div>
+              <div className="pokemon-detail screw-button"></div>
+            </div>
+
             <div className="pokemon-detail glass-screen-display">
               <img src={pokemon.main_image_url} alt={pokemon.name} />
-              <span className="glass-streak-1"></span>
-              <span className="glass-streak-2"></span>
-              <span className="glass-streak-3"></span>
+              <div className="pokemon-detail glass-streak-1"></div>
+              <div className="pokemon-detail glass-streak-2"></div>
+              <div className="pokemon-detail glass-streak-3"></div>
             </div>
 
             <div className="pokemon-detail glass-buttons-wrapper">
-              <span className="small-red-button"><span className="button-inner"></span></span>
+              <div className="pokemon-detail red-button-wrapper"><div className="button-inner"></div></div>
 
               <div className="pokemon-detail vent-lines-wrapper">
-                <span className="vent-line-1"></span>
-                <span className="vent-line-2"></span>
-                <span className="vent-line-3"></span>
+                <div className="pokemon-detail vent-line"></div>
+                <div className="pokemon-detail vent-line"></div>
+                <div className="pokemon-detail vent-line"></div>
               </div>
             </div>
           </div>
 
-          <div className="pokemon-mock-display">
-            <span className="mock-line-1"></span>
-            <span className="mock-line-2"></span>
-            <span className="mock-line-3"></span>
-            <span className="mock-line-4"></span>
+          <div className="pokemon-detail mock-display">
+            <div className="mock-line-1"></div>
+            <div className="mock-line-2"></div>
+            <div className="mock-line-3"></div>
+            <div className="mock-line-4"></div>
           </div>
         </div>
 

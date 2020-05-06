@@ -4,22 +4,30 @@ const PokemonHome = () => (
   <div className="pokemon-detail screens-container">
     <div className="pokemon-detail image-screens">
       <div className="pokemon-detail poke-image-display">
+        <div className="pokemon-detail screw-wrapper">
+          <div className="pokemon-detail screw-button"></div>
+          <div className="pokemon-detail screw-button"></div>
+        </div>
+
         <div className="pokemon-detail glass-screen-display">
           <img/>
-          <span className="glass-streak-1"></span>
-          <span className="glass-streak-2"></span>
-          <span className="glass-streak-3"></span>
+          <div className="glass-streak-1"></div>
+          <div className="glass-streak-2"></div>
+          <div className="glass-streak-3"></div>
         </div>
 
         <div className="pokemon-detail glass-buttons-wrapper">
-            <span className="small-red-button"><span className="button-inner"></span></span>
-            <span className="vent-line-1"></span>
-            <span className="vent-line-2"></span>
-            <span className="vent-line-3"></span>
+          <div className="pokemon-detail red-button-wrapper"><div className="button-inner"></div></div>
+
+          <div className="pokemon-detail vent-lines-wrapper">
+            <div className="pokemon-detail vent-line"></div>
+            <div className="pokemon-detail vent-line"></div>
+            <div className="pokemon-detail vent-line"></div>
+          </div>
         </div>
       </div>
 
-      <div className="pokemon-mock-display">
+      <div className="pokemon-detail mock-display">
         <span className="mock-line-1"></span>
         <span className="mock-line-2"></span>
         <span className="mock-line-3"></span>
@@ -27,7 +35,7 @@ const PokemonHome = () => (
       </div>
     </div>
 
-    <div className="pokemon-detail-display"></div>
+    <div className="pokemon-detail info-container"></div>
   </div>
 );
 
