@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom';
 const PokemonIndexItem = ({pokemon}) => (
   <li>
     <Link to={`/pokemon/${pokemon.id}`}>
-      <span className="number">{pokemon.id}</span> 
+      <p className="number">{pokemon.id}</p> 
       <img src={pokemon.thumbnail_image_url} alt={pokemon.name} />
-      <span>{pokemon.name}</span>
+      <p>{pokemon.name}</p>
     </Link>
   </li>
 );

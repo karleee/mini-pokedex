@@ -530,12 +530,12 @@ var PokemonIndexItem = function PokemonIndexItem(_ref) {
   var pokemon = _ref.pokemon;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/pokemon/".concat(pokemon.id)
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "number"
   }, pokemon.id), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: pokemon.thumbnail_image_url,
     alt: pokemon.name
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, pokemon.name)));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, pokemon.name)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (PokemonIndexItem);
