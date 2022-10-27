@@ -7,18 +7,6 @@ Mini Pokedex is an interactive real life version of the famous little gadget kno
 <img src="https://github.com/karleee/mini-pokedex/blob/master/README_images/mini-pokedex_main1.png" alt="Homepage" width="900px"     border="1">
 </kbd>
 
-<br>
-<br>
-<br>
-
-<kbd>
-<img src="https://github.com/karleee/mini-pokedex/blob/master/README_images/mini-pokedex_main2.png" alt="Homepage" width="900px" border="1">
-</kbd>
-
-
-## How It Works
-To see the most up to date version, please visit [the homepage](https://mini-pokedex.herokuapp.com/).
-
 ## Technologies Used
 * Database – Postgres
 * Libraries – React, Redux
